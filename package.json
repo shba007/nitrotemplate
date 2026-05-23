@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "nitro": "^3.0.260415-beta",
-    "zod": "^4.3.6"
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.5.0",
