@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.1.1
+
+[compare changes](https://github.com/shba007/nitrotemplate/compare/v0.1.0...v0.1.1)
+
+### 🏡 Chore
+
+- Update package dependencies and package manager version ([b83d4d4](https://github.com/shba007/nitrotemplate/commit/b83d4d4))
+
+### ❤️ Contributors
+
+- Shirsendu Bairagi ([@shba007](https://github.com/shba007))
+
 ## v0.1.0
 
 ### 🚀 Enhancements
