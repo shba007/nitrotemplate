@@ -15,13 +15,12 @@
     "pnpm": "^9.15.0 || ^10.2.0 || ^11.0.0",
     "bun": "^1.2.9"
   },
-  "packageManager": "bun@1.4.0",
+  "packageManager": "bun@1.4.2",
   "imports": {
     "#*": "./*"
   },
   "scripts": {
     "prepare": "husky || true",
-    "postinstall": "nitro prepare",
     "dev": "nitro dev",
     "detect": "gitleaks git --verbose",
     "lint": "eslint . --fix",
@@ -36,19 +35,19 @@
     "docker:start": "docker run --detach --name nitrotemplate-dev --env-file .env.prod -p 3500:3000 nitrotemplate:dev"
   },
   "dependencies": {
-    "nitro": "^3.0.260610-beta",
-    "nitro-mcp-toolkit": "^0.2.0",
-    "zod": "^4.4.3"
+    "nitro": "^3.0.260903-beta",
+    "nitro-mcp-toolkit": "^0.3.0",
+    "zod": "^4.6.5"
   },
   "devDependencies": {
-    "@commitlint/cli": "^21.2.2",
-    "@commitlint/config-conventional": "^21.2.2",
-    "@dotenvx/dotenvx": "^2.21.0",
-    "@types/bun": "^1.4.0",
-    "eslint": "^10.9.1",
+    "@commitlint/cli": "^21.2.3",
+    "@commitlint/config-conventional": "^21.2.3",
+    "@dotenvx/dotenvx": "^2.31.1",
+    "@types/bun": "^1.4.2",
+    "eslint": "^10.11.0",
     "eslint-config-unjs": "^0.6.2",
     "husky": "^9.1.7",
-    "prettier": "^3.9.6",
+    "prettier": "^3.9.9",
     "typescript": "^6.0.3"
   }
 }
