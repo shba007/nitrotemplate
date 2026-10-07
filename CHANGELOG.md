@@ -1,5 +1,20 @@
 # Changelog
 
+## v0.1.1
+
+### 🩹 Fixes
+
+- Ensure consistent formatting and configuration updates ([6bdd5ae](https://github.com/shba007/nitrotemplate/commit/6bdd5ae))
+
+### 🏡 Chore
+
+- Apply code fixes [skip ci] ([f295d35](https://github.com/shba007/nitrotemplate/commit/f295d35))
+
+### ❤️ Contributors
+
+- Shba007
+- Shirsendu Bairagi <shirsendu2001@gmail.com>
+
 ## v0.1.0
 
 ### 🚀 Enhancements
