@@ -1,6 +1,6 @@
 services:
   app:
-    image: ghcr.io/shba007/nitrotemplate:latest
+    image: ghcr.io/shba007/nitrotemplate:latest@sha256:66f225a0848b744c21438d6cb57044068bbc8e69b0ed412e5ac730f8cd32c88d
     env_file:
       - .env
     volumes:
